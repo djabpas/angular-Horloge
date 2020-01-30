@@ -9,7 +9,7 @@ import { AppComponent } from '../../src/app/app.component';
     AppModule,
     ServerModule,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent], 
 })
 export class AppServerModule {}
  
