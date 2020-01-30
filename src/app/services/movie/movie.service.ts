@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 
-import { Movie } from 'src/app/model/Movie';
+import { Movie } from '../../model/Movie';
 
 
 

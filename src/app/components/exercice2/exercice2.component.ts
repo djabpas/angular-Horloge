@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieService } from 'src/app/services/movie/movie.service';
 import { HttpClient } from '@angular/common/http';
-import { Movie } from 'src/app/model/Movie';
+import { Movie } from '../../model/Movie';
 
 @Component({
   selector: 'app-exercice2',

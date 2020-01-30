@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { interval } from 'rxjs';
-import { MovieService } from 'src/app/services/movie/movie.service';
+import { MovieService } from '../../services/movie/movie.service';
 import { error } from 'protractor';
 
 
