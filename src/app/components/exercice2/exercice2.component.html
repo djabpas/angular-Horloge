@@ -1,8 +1,10 @@
 <app-header [title]="'Exercice 2'"></app-header>
 <img class="exerice" src="/assets/thinking.jpg" />
 <div>
-    Your solution here !
-    
+    Le projet des BoxOffice est envoyé dans un projet à part (git : <a href="https://github.com/djabpas/BoxOffice2020"> BoxOffice</a>)
+    <div>
+        <button (click)="AwidData()">Get Top10</button>
+    </div>
     <ul>
         <li *ngFor="let f of data"> {{f}} 
             <br><hr>
